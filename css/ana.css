@@ -1,0 +1,21 @@
+body{
+  font-family: 'Merriweather', serif;
+}
+
+.ana__content{
+  width: 70%;
+  margin-left: 5%;
+}
+
+.ana__title, .ana__content a{
+  text-decoration: none;
+  color: #009E8E;
+}
+
+.ana__content a:hover{
+  text-decoration: underline;
+}
+
+.ana__contact{
+  margin-top: 50px;
+}
