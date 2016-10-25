@@ -1,21 +1,32 @@
-body{
-  font-family: 'Merriweather', serif;
+/* line 1, ../sass/partials/_base.scss */
+body {
+  font-family: "Merriweather", serif;
 }
 
-.ana__content{
+/* line 5, ../sass/partials/_base.scss */
+.ana__content {
   width: 70%;
   margin-left: 5%;
 }
+/* line 8, ../sass/partials/_base.scss */
+.ana__content a {
+  text-decoration: none;
+  color: #009E8E;
+}
+/* line 11, ../sass/partials/_base.scss */
+.ana__content a:hover {
+  text-decoration: underline;
+}
 
-.ana__title, .ana__content a{
+/* line 17, ../sass/partials/_base.scss */
+.ana__title {
   text-decoration: none;
   color: #009E8E;
 }
 
-.ana__content a:hover{
-  text-decoration: underline;
-}
-
-.ana__contact{
+/* line 22, ../sass/partials/_base.scss */
+.ana__contact {
   margin-top: 50px;
 }
+
+/*# sourceMappingURL=ana.css.map */
